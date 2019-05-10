@@ -1,0 +1,16 @@
+<!-- prettier-ignore -->
+
+# compiled output
+dist
+
+# dependencies
+node_modules
+
+# test snapshots
+__snapshots__/
+
+# auto-generated files
+yarn.lock
+package-lock.json
+coverage/
+yarn-error.log

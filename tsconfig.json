@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "target": "es2017",
+    "jsx": "react",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "lib": ["es7", "dom"],
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true
+  },
+  "include": ["./app/**/*", "./server/**/*", "./shared/**/*"],
+  "exclude": ["node_modules"]
+}

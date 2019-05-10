@@ -1,0 +1,22 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+dist
+
+# dependencies
+node_modules
+
+# test snapshots
+__snapshots__/
+
+# auto-generated files
+package-lock.json
+coverage/
+yarn-error.log
+yarn.lock
+
+# editor-specific files
+.idea
+
+# files that might have secrets
+.env
